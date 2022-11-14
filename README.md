@@ -25,9 +25,13 @@ https://alphacephei.com/vosk/models/vosk-model-small-en-us-0.15.zip
 ```
 ### Step 3: Unzip Vosk model
 
-### Step 4: Download speech recognition script
+### Step 4: Download Word.py
 
-### Step 5: Edit speech recognition script
+### Step 5: Make sure speech recognition.py and Word.py are in the same directory
+
+### Step 6: Download speech recognition script
+
+### Step 7: Edit speech recognition script
 ```bash
 model_path = "/PATH/TO/VOSK/MODEL"
 # Example: model_path = "C:/Users/JohnDoe/Desktop/vosk-model-small-en-us-0.15"
@@ -38,7 +42,7 @@ audio_filename = glob.glob("/PATH/TO/FOLDER/AUDIO/FILES/*n##*.wav")
 # Note: The # in n## would be changed to the number of the audio file. For example, if the audio file is named "audio1.wav", then the # would be changed to 1.
 ```
 
-### Step 6: Run speech recognition script
+### Step 8: Run speech recognition script
 ```bash
 Output will be formatted as follows:
 Word, Start Time (Secs), Stop Time (Secs), Confidence Percentage
@@ -55,4 +59,4 @@ conda create --name SpeechRecognition python=3.9
 ```bash
 conda activate SpeechRecognition
 ```
-### Step 3: Follow steps 1-6 from the Installation section.
+### Step 3: Follow steps 1-8 from the Installation section.
