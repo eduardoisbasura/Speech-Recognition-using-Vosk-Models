@@ -21,7 +21,7 @@ pip install vosk
 ```
 ### Step 2: Download Vosk model
 ```bash
-ttps://alphacephei.com/vosk/models/vosk-model-small-en-us-0.15.zip
+https://alphacephei.com/vosk/models/vosk-model-small-en-us-0.15.zip
 ```
 ### Step 3: Unzip Vosk model
 
