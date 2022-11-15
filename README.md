@@ -60,3 +60,7 @@ conda create --name SpeechRecognition python=3.9
 conda activate SpeechRecognition
 ```
 ### Step 3: Follow steps 1-8 from the Installation section.
+
+## Credits
+
+* Dmytro Nikolaiev (https://gitlab.com/Winston-90/foreign_speech_recognition/-/tree/main/timestamps)
