@@ -55,8 +55,10 @@ audio_filename = audio_filename + ".txt"
 
 # create textgrid file with audioname and list of words
 tg = tgt.core.TextGrid()
-tg.name = audio_filename  # type: ignore
+tg.name = audio_filename
 tier = tgt.core.IntervalTier(name='words')
+
+# add words to the tier
 for word in list_of_Words:
     tier.add_interval(tgt.core.Interval(word.start, word.end, word.word))
 tg.add_tier(tier)
