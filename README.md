@@ -64,3 +64,9 @@ conda activate SpeechRecognition
 ## Credits
 
 * Dmytro Nikolaiev (https://gitlab.com/Winston-90/foreign_speech_recognition/-/tree/main/timestamps)
+* Buschmeier, H. & Włodarczak, M. (2013). TextGridTools: A TextGrid processing and analysis toolkit for Python. In Proceedings der 24. Konferenz zur Elektronischen Sprachsignalverarbeitung, pp. 152–157, Bielefeld, Germany. (https://github.com/hbuschme/TextGridTools)
+* Vosk module (https://alphacephei.com/vosk/install)
+* Vosk model (https://alphacephei.com/vosk/models)
+* Python (https://www.python.org/downloads/)
+* Visual Studio Code (https://code.visualstudio.com/download)
+* Conda (https://docs.conda.io/en/latest/miniconda.html)
